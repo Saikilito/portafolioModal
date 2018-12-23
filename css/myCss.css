@@ -1,0 +1,122 @@
+body{
+    background: #f2f2f2 ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    margin-top: 30px;
+}
+
+header .nav{
+    min-height: 80px;
+    overflow: hidden;
+    background: #fff;
+}
+
+/* Logo */
+
+header .Logo h2,
+header .Logo span,
+header .Logo p{
+    font-size:16px;
+    display: inline-block;
+    margin: 0;
+}
+
+header .Logo h2{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+header .Logo .icono {
+    color: #bfbfbf
+}
+
+header .Logo p {
+    color:#777777;
+}
+
+/* --Menu -- */
+
+header .Menu{
+    padding:0;
+}
+
+header .Menu a {
+    display: block ;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 30px;
+}
+
+header .Menu a div span {
+    font-weight: 600;
+}
+
+header .Menu .C-1{
+    background: #3da5e2;
+}
+header .Menu .C-2{
+    background: #005385;
+}
+header .Menu .C-3{
+    background: #003855;
+}
+
+header .Menu .C-1:hover{
+    background: #1ba0ef;
+}
+header .Menu .C-2:hover{
+    background: #00426a;
+}
+header .Menu .C-3:hover{
+    background: #002d44;
+}
+
+/* --Slider -- */
+
+.Slider{
+    margin-bottom: 40px;
+}
+
+.Slider .col {
+    padding:0;
+}
+
+/* --Portafolio-- */
+
+.Portafolio{
+    background: #fff;
+    border-top: 5px solid #3da5e2;
+    padding: 0 20px;
+    margin-bottom: 40px; 
+}
+
+.Portafolio .Titulo {
+    padding: 40px 0 ;
+    text-align: center;
+    color: #3da5e2;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.Portafolio .Galeria .Contenedor-Imagen {
+    margin-bottom: 40px;
+    max-height: 180px;
+    overflow: hidden; 
+}
+
+.Portafolio .Galeria .Contenedor-Imagen a{
+    display: inline-block;
+    background: #3da5e2;
+}
+
+.Portafolio .Galeria .Contenedor-Imagen:hover img {
+    opacity: .3;
+}
+
+.Portafolio .modal-dialog {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+}
