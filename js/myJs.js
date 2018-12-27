@@ -1,16 +1,11 @@
-(
-    (d) =>{
-        d.addEventListener('DOMContentLoaded', e => {
-            const copy = d.querySelector('.Footer small')
+$(function(){
+    $('.Galeria .Contenedor-Imagen').on('click', function(){
+        $('#modal').modal;
+        var ruta_imagen = ($(this).find('img').attr('src'));
+        $('#imagen-modal').attr('src', ruta_imagen);
+    });
 
-            copy.innerHTML = `&copy; ${new Date().getFullYear()} @Saikilito`;
-
-            $('.navbar-nav>li>a').on('click',()=>$('.navbar-collapse').collapse('hide'));
-
-            const scroll = new SmoothScroll('a[href*="#"]', {
-                offset: 50,
-                selectorHeader: '.navbar'
-              })
-        })
-}
-)(document);
+    $('#modal').on('click', function(){
+        $('#modal').modal('hide');
+    });
+})
